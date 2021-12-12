@@ -1,0 +1,29 @@
+.header__button{
+    width: 173px;
+    border: none;
+    margin: 0;
+    padding: 16px;
+    text-align: center;
+    background-color: #BA4270;
+    box-shadow: 10px 10px 25px -10px rgba(54, 83, 107, 0.25);
+    border-radius: 24px;
+    cursor: pointer;
+    &:hover{
+        background-color: #DA6D97;
+    }
+}
+
+
+.header__button__paragraf{
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: -0.11538461595773697px;
+    text-align: center;
+    font-family: 'Public Sans' ,'Arial', sans-serif;
+    color: #FBFCFE;
+
+}

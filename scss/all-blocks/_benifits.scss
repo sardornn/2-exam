@@ -1,0 +1,115 @@
+.benifits__list{
+    display: flex;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 100px;
+    list-style-type: none;
+    text-align: center;
+    justify-content: space-between;
+}
+.benifits__item{
+    max-width: 350px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+   
+   
+  
+}
+.benifits__item-1{
+    &::before {
+		display: block;
+		margin: 0 auto;
+		margin-bottom: 32px;
+		width: 106px;
+		height: 106px;
+		background-image: url('../images/before1.png');
+		content: '';
+    }
+}
+.benifits__item-2{
+    margin: 0 15px;
+    &::before {
+		display: block;
+		margin: 0 auto;
+		margin-bottom: 32px;
+		width: 106px;
+		height: 106px;
+		background-image: url('../images/before2.png');
+		content: '';
+    }
+}
+.benifits__item-3{
+    &::before {
+		display: block;
+		margin: 0 auto;
+		margin-bottom: 32px;
+		width: 106px;
+		height: 106px;
+		background-image: url('../images/before3.png');
+		content: '';
+    }
+}
+.benifits__item__heading{
+    margin: 0;
+    margin-bottom: 16px;
+    padding: 0;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 25px;
+    letter-spacing: -0.13846154510974884px;
+    text-align: center;
+    font-family: 'Public Sans' ,'Arial', sans-serif;
+    color: #36536B;
+
+}
+.benifits__item__paragraf{
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: -0.11538461595773697px;
+    text-align: center;
+    font-family: 'Public Sans' ,'Arial', sans-serif;
+    color: #6C8294;
+
+}
+
+@media only screen and(max-width:768px){
+    .benifits__item{
+        max-width: 223px;
+    }
+   
+}
+
+@media only screen and(max-width:650px){
+    .benifits__list{
+        flex-direction: column;
+       align-items: center;
+       margin-bottom: 80px;
+    }
+    .benifits__item{
+        max-width: 328px;
+    }
+    .benifits__item + .benifits__item{
+        margin-top: 48px;
+    }
+ 
+}
+@media only screen and(max-width:425px){
+    .benifits__list{
+        flex-direction: column;
+       align-items: center;
+       margin-bottom: 80px;
+    }
+    .benifits__item{
+        max-width: 328px;
+    }
+    .benifits__item + .benifits__item{
+        margin-top: 48px;
+    }
+ 
+}
