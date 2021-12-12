@@ -25,6 +25,10 @@
     margin-left: 24px;
 }
 
+.socials__link:hover path {
+	fill: red;
+}
+
 @media only screen and(max-width:670px){
     .footer__inner{
         flex-direction: column;
